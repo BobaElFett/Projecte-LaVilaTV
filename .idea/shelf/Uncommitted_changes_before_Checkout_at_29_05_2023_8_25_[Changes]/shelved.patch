@@ -1,0 +1,18 @@
+Index: Projecte-LaVilaTV.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<module type=\"JAVA_MODULE\" version=\"4\">\r\n  <component name=\"NewModuleRootManager\" inherit-compiler-output=\"true\">\r\n    <exclude-output />\r\n    <content url=\"file://$MODULE_DIR$\">\r\n      <sourceFolder url=\"file://$MODULE_DIR$/LaVilaTV/src\" isTestSource=\"false\" />\r\n    </content>\r\n    <orderEntry type=\"inheritedJdk\" />\r\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\r\n  </component>\r\n</module>
+===================================================================
+diff --git a/Projecte-LaVilaTV.iml b/Projecte-LaVilaTV.iml
+--- a/Projecte-LaVilaTV.iml	
++++ b/Projecte-LaVilaTV.iml	
+@@ -7,5 +7,8 @@
+     </content>
+     <orderEntry type="inheritedJdk" />
+     <orderEntry type="sourceFolder" forTests="false" />
++    <orderEntry type="library" name="flatlaf-3.1.1" level="project" />
++    <orderEntry type="library" name="flatlaf-intellij-themes-3.1.1" level="project" />
++    <orderEntry type="library" name="mysql-connector-j-8.0.33" level="project" />
+   </component>
+ </module>
+\ No newline at end of file
