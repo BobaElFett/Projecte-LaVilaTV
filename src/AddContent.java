@@ -1,7 +1,12 @@
 import javax.swing.*;
 import java.awt.event.*;
 
-public class anyadeContenido extends JDialog {
+public class AddContent extends JDialog {
+    @Override
+    public JPanel getContentPane() {
+        return contentPane;
+    }
+
     private JPanel contentPane;
     private JButton buttonOK;
     private JButton anyadeButton;
@@ -14,16 +19,10 @@ public class anyadeContenido extends JDialog {
     private JTextField textField6;
     private JComboBox comboBox1;
 
-    public anyadeContenido() {
+    public AddContent() {
         setContentPane(contentPane);
         setModal(true);
         getRootPane().setDefaultButton(buttonOK);
-
-        buttonOK.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent e) {
-                onOK();
-            }
-        });
 
         anyadeButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
@@ -58,7 +57,7 @@ public class anyadeContenido extends JDialog {
     }
 
     public static void main(String[] args) {
-        anyadeContenido dialog = new anyadeContenido();
+        AddContent dialog = new AddContent();
         dialog.pack();
         dialog.setVisible(true);
         System.exit(0);

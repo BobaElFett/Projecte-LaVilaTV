@@ -4,18 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a921ea5f-233a-4bc5-bf32-586ae9f5a95c" name="Changes" comment="Commit Inicial Projecte">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/flatlaf_3_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/flatlaf_intellij_themes_3_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_j_8_0_33.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/anyadeContenido.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/anyadeContenido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_29_05_2023_8_25__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_29_05_2023_8_25__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_29_05_2023_8_28__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_29_05_2023_8_28__Changes_.xml" afterDir="false" />
+    <list default="true" id="a921ea5f-233a-4bc5-bf32-586ae9f5a95c" name="Changes" comment="First &quot;anyadeContenido&quot; commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LaVilaTV.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LaVilaTV.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/anyadeContenido.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/AddContent.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/anyadeContenido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AddContent.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +82,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "262",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/Users/Usuario/Desktop/Proyectos Programación/Proyecto/lib/mysql-connector-j-8.0.33.jar",
     "node.js.detected.package.eslint": "true",
@@ -126,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685008097467</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="First &quot;anyadeContenido&quot; commit">
+      <created>1685344683590</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1685344683590</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +158,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="kihj" />
     <MESSAGE value="Commit Inicial Projecte" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit Inicial Projecte" />
+    <MESSAGE value="First &quot;anyadeContenido&quot; commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First &quot;anyadeContenido&quot; commit" />
   </component>
 </project>

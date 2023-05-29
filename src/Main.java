@@ -1,9 +1,14 @@
+import com.formdev.flatlaf.intellijthemes.FlatOneDarkIJTheme;
+
+import javax.swing.*;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        System.setProperty("flatlaf.uiScale", "1.5");
+        FlatOneDarkIJTheme.setup();
 
-        System.out.println("Prova");
+        JDialog addContent = new JDialog();
+        addContent.setContentPane(new AddContent().getContentPane());
 
-        System.out.println("Prova2");
     }
 }
